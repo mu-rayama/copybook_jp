@@ -28,7 +28,7 @@ npm run dev
 | スクリプト         | 説明                                     |
 | --------------- | ----------------------------------------------- |
 | `npm run dev`   | ローカルで Hugo server と Tailwind Watcherを起動します |
-| `npm run build` | 本番環境用の                 |
+| `npm run build` | 本番環境用のリソースを作成します                 |
 
 ## License
 [本家"Copy book"のライセンス](https://github.com/praveenjuge/copybook/blob/main/LICENSE)に基づいて作られています。
