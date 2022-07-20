@@ -1,7 +1,7 @@
 # Copy Book
 
 "Copy book" はWeb上でよく使われるテキスト集です。  
-[本家](https://copybook.me/)を参考に訳したものを中心に掲載しています。
+[本家](https://copybook.me/)を参考に日本語へ訳したものを中心に掲載しています。
 
 ## 開発環境
 
@@ -17,7 +17,7 @@ brew install hugo
 その後、以下のコマンドでローカル環境を起動することができます。
 
 ```sh
-git clone https://github.com/praveenjuge/copybook.git
+git clone https://github.com/mu-rayama/copybook_jp.git
 cd copybook
 npm install
 npm run dev
@@ -32,4 +32,4 @@ npm run dev
 
 ## License
 [本家"Copy book"のライセンス](https://github.com/praveenjuge/copybook/blob/main/LICENSE)に基づいて作られています。
-本リポジトリについては[ライセンス](https://github.com/mu-rayama/copybookjp/blob/main/LICENSE)をご覧ください。
+本リポジトリについては[ライセンス](https://github.com/mu-rayama/copybook_jp/blob/main/LICENSE)をご覧ください。
