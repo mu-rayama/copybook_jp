@@ -5,7 +5,7 @@
     href="{{.Permalink}}"
   >
     <span>
-      {{ if in .Permalink "/tags" }} #{{.Title | urlize}} {{ else }} {{.Title |
+      {{ if in .Permalink "/tags" }} #{{.Title | title}} {{ else }} {{.Title |
       title}} {{ end }}
     </span>
     <span class="text-stone-500 font-normal">{{ len .RegularPages }} </span>

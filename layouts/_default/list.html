@@ -2,7 +2,7 @@
 
 <h1 class="mt-4 mb-8 text-3xl font-bold tracking-tight">
   {{ if in .Permalink "/tags/" }} 
-    #{{.Title | urlize}} 
+    #{{.Title | title}} 
   {{ else }} 
     {{.Title | humanize | title}} 
   {{ end }}

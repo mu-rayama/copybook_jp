@@ -1,5 +1,5 @@
 baseURL = "https://copybook.me/"
-languageCode = "en-us"
+languageCode = "ja"
 title = "Copy Book"
 
 enableRobotsTXT = true
@@ -22,8 +22,8 @@ paginate = 75
   sitename = "Copy Book"
 
 [author]
-  name = "Praveen Juge"
-  github = "praveenjuge"
-  twitter = "praveenjuge"
-  dribbble = "praveenjuge"
-  behance = "praveenjuge"
+  name = "mu-rayama"
+  github = "mu-rayama"
+  twitter = "copybookjp"
+  dribbble = ""
+  behance = ""

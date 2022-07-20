@@ -20,53 +20,52 @@
     </a>
     <div id="docsearch"></div>
     <div class="space-x-2 md:space-x-0 md:space-y-0.5 hidden md:flex flex-wrap md:flex-col md:items-start">
-      <a href="/tags/" class="text-stone-500 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white">Tags</a>
+      <a href="/tags/" class="text-stone-500 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white">タグ</a>
       {{ range first 5 (.Site.Taxonomies.tags.ByCount) }}
         <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>
       {{ end }}
       <a href="/tags/" class="hover:text-stone-900 dark:hover:text-white flex space-x-0.5 items-center group">
-        <span>See all</span>
+        <span>すべて見る</span>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-2.5 w-2.5 flex-1 transition text-stone-500 group-hover:text-stone-900 dark:group-hover:text-white" viewBox="0 0 256 256"><polyline points="96 48 176 128 96 208" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="34"></polyline></svg>
       </a>
     </div>
     <div class="space-x-2 md:space-x-0 md:space-y-0.5 hidden md:flex flex-wrap md:flex-col md:items-start">
-      <a href="/categories/" class="text-stone-500 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white">Categories</a>
+      <a href="/categories/" class="text-stone-500 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white">カテゴリ</a>
       {{ range first 5 (.Site.Taxonomies.categories.ByCount) }}
         <a href="{{ .Page.Permalink }}">{{ .Page.Title | title }}</a>
       {{ end }}
       <a href="/categories/" class="hover:text-stone-900 dark:hover:text-white flex space-x-0.5 items-center group">
-        <span>See all</span>
+        <span>すべて見る</span>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-2.5 w-2.5 flex-1 transition text-stone-500 group-hover:text-stone-900 dark:group-hover:text-white" viewBox="0 0 256 256"><polyline points="96 48 176 128 96 208" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="34"></polyline></svg>
       </a>
     </div>
     <div class="space-x-2 md:space-x-0 md:space-y-0.5 hidden md:flex flex-wrap md:flex-col md:items-start">
-      <a href="/mood/" class="text-stone-500 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white">Mood</a>
+      <a href="/mood/" class="text-stone-500 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white">ムード</a>
       {{ range first 5 (.Site.Taxonomies.mood.ByCount) }}
         <a href="{{ .Page.Permalink }}">{{ .Page.Title | title }}</a>
       {{ end }}
       <a href="/mood/" class="hover:text-stone-900 dark:hover:text-white flex space-x-0.5 items-center group">
-        <span>See all</span>
+        <span>すべて見る</span>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-2.5 w-2.5 flex-1 transition text-stone-500 group-hover:text-stone-900 dark:group-hover:text-white" viewBox="0 0 256 256"><polyline points="96 48 176 128 96 208" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="34"></polyline></svg>
       </a>
     </div>
   </div>
   <div class="space-x-3 md:space-x-0 md:space-y-0.5 flex flex-wrap md:flex-col md:items-start">
-    <a href="/tags/" class="inline md:hidden">Tags</a>
-    <a href="/categories/" class="inline md:hidden">Categories</a>
-    <a href="/mood/" class="inline md:hidden">Mood</a>
+    <a href="/tags/" class="inline md:hidden">タグ</a>
+    <a href="/categories/" class="inline md:hidden">カテゴリ</a>
+    <a href="/mood/" class="inline md:hidden">ムード</a>
     <a 
       target="_blank"
       class="hidden md:inline"
       rel="noopener noreferrer"
-      href="https://twitter.com/praveenjuge">
-      Follow on Twitter
+      href="https://twitter.com/copybookjp">
+      Twitter
     </a>
     <a 
-      href=https://github.com/praveenjuge/copybook/
+      href=https://github.com/mu-rayama/copybook_jp/
       target="_blank"
       rel="noopener noreferrer">
-      <span class="hidden md:inline">View on </span>
-      GitHub
+      <span class="hidden md:inline">GitHub </span>
     </a>
   </div>
 </aside>

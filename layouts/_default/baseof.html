@@ -13,12 +13,12 @@
     <script>
       var copy = function (elem) {
         const copyRect = document.getElementById(elem + "-copy");
-        copyRect.innerHTML = "Copied!";
+        copyRect.innerHTML = "コピーしました!";
         navigator.clipboard.writeText(
           document.getElementById(elem + "-content").innerText
         );
         setTimeout(function () {
-          copyRect.innerHTML = "Copy";
+          copyRect.innerHTML = "コピー";
         }, 1000);
       };
     </script>
@@ -33,12 +33,12 @@
       docsearch({
         appId: "RMNJ9XLDDW",
         apiKey: "9dfa2e64c920fb36da60161e201a46c3",
-        indexName: "copybook",
+        indexName: "copybook_jp",
         container: "#docsearch",
-        placeholder: "Search and filter...",
+        placeholder: "検索...",
         getMissingResultsUrl({ query }) {
           return (
-            "https://github.com/praveenjuge/copybook/issues/new?title=" + query
+            "https://github.com/mu-rayama/copybook_jp/issues/new?title=" + query
           );
         },
       });

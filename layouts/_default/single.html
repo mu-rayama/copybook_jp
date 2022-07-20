@@ -7,16 +7,16 @@
         href="javascript:history.back()"
         class="text-stone-800 dark:text-stone-200 hover:text-stone-900 dark:hover:text-white transition font-medium border border-stone-200 dark:border-stone-800 hover:border-stone-300 dark:hover:border-stone-700 rounded-full px-4 py-2"
       >
-        ← Go back
+        ← 戻る
       </a>
     </div>
     <a     
       class="text-stone-800 dark:text-stone-200 hover:text-stone-900 dark:hover:text-white transition font-medium border border-stone-200 dark:border-stone-800 hover:border-stone-300 dark:hover:border-stone-700 rounded-full px-4 py-2" 
-      href=https://github.com/praveenjuge/copybook/blob/main/content/{{ .File.Path }}
+      href=https://github.com/mu-rayama/copybook_jp/blob/main/content/{{ .File.Path }}
       target="_blank"
       rel="noopener noreferrer"
     >
-      Edit on GitHub ↗
+      GitHubで編集 ↗
     </a>
   </div>
 
@@ -29,13 +29,13 @@
   <div class="divide-y divide-stone-200 dark:divide-stone-800">
     {{ with .Params.categories }}
       <div class="flex justify-between items-center py-3.5">
-        <p class="text-stone-500">Category</p>
+        <p class="text-stone-500">カテゴリ</p>
         <a class="font-medium" href="{{ "/categories/" }}{{ . | urlize }}">{{ . | title }}</a>
       </div>
     {{ end }}
 
     <div class="flex justify-between items-center py-3.5">
-      <p class="text-stone-500">Tags</p>
+      <p class="text-stone-500">タグ</p>
       <div>
         {{ range $key, $value := .Params.tags }}
           <a class="font-medium" href="{{ "/tags/" }}{{ $value | urlize }}">#{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}{{ end }}
@@ -45,7 +45,7 @@
 
     {{ with .Params.mood }}
       <div class="flex justify-between items-center py-3.5">
-        <p class="text-stone-500">Mood</p>
+        <p class="text-stone-500">ムード</p>
         <a class="font-medium" href="{{ "/mood/" }}{{ . | urlize }}">{{ . | title }}</a>
       </div>
     {{ end }}

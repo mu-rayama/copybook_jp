@@ -1,18 +1,20 @@
 # Copy Book
 
-Copy book is a collection of texts that are commonly used around the web.
+"Copy book" はWeb上でよく使われるテキスト集です。  
+[本家](https://copybook.me/)を参考に訳したものを中心に掲載しています。
 
-## Development
+## 開発環境
 
-You need [Hugo](https://gohugo.io/) to run the dev server. If you have [Homebrew](https://brew.sh/) you can do the following:
+[Hugo](https://gohugo.io/)を使用しています。  
+[Homebrew](https://brew.sh/)が導入されている場合、以下でインストールすることができます:
 
 ```sh
 brew install hugo
 ```
 
-Check this [Hugo installation page](https://gohugo.io/getting-started/installing/) for installing on other systems.
+導入されていない場合は[Hugo installation page](https://gohugo.io/getting-started/installing/)からインストールできます。
 
-Then clone the repo, install dependencies, and start the server locally.
+その後、以下のコマンドでローカル環境を起動することができます。
 
 ```sh
 git clone https://github.com/praveenjuge/copybook.git
@@ -21,13 +23,13 @@ npm install
 npm run dev
 ```
 
-Open [`http://localhost:1313`](http://localhost:1313) in your browser.
+ブラウザで[`http://localhost:1313`](http://localhost:1313)にアクセスすると、"Copy book"が表示されます。
 
-| Scripts         | Description                                     |
+| スクリプト         | 説明                                     |
 | --------------- | ----------------------------------------------- |
-| `npm run dev`   | Starts a local Hugo server and Tailwind Watcher |
-| `npm run build` | For generating production files                 |
+| `npm run dev`   | ローカルで Hugo server と Tailwind Watcherを起動します |
+| `npm run build` | 本番環境用の                 |
 
 ## License
-
-See the [LICENSE](https://github.com/praveenjuge/copybook/blob/main/LICENSE) file.
+[本家"Copy book"のライセンス](https://github.com/praveenjuge/copybook/blob/main/LICENSE)に基づいて作られています。
+本リポジトリについては[ライセンス](https://github.com/mu-rayama/copybookjp/blob/main/LICENSE)をご覧ください。
